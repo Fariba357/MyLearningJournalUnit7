@@ -1,0 +1,11 @@
+workflows:
+  swift-package:
+    name: Swift Package Build
+    environment:
+      xcode: latest
+    scripts:
+      - name: Build Swift package
+        script: |
+          swift build
+    artifacts:
+      - .build
