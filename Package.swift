@@ -20,6 +20,10 @@ let package = Package(
                 "SigninView.swift",
                 "SignupView.swift",
                 "UserModel.swift"
+            ],
+            resources: [
+                // If you have Core Data model files (.xcdatamodeld), include them here
+                // "AttendanceApp.xcdatamodeld"
             ]
         )
     ]
